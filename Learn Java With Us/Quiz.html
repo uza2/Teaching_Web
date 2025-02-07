@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <title>منطلق البرمجة</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">منطلق البرمجة</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="Videos.html">الفيديوهات</a></li>
+                    <li><a href="Source.html">المصادر</a></li>
+                    <li><a href="Quiz.html">الاختبار</a></li>
+                    <li><a href="Contact.html">اتصل بنا</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="اكتب هنا للبحث" list="browsers">
+                <a href="Videos.html"><button class="btn">ابحث</button></a>
+                <datalist id="browsers">
+                    <option value="مقدمة عن لغة Go">
+                    <option value="02 طريقة تنزيل بيئة العمل للغة Go">
+                </datalist>
+            </div>
+        </div>
+    </div>
+
+    <!-- بداية قسم الاختبارات -->
+    <div class="quiz-container">
+        <h2>اختبار بسيط في لغة Java</h2>
+        <form id="quizForm">
+            <!-- السؤال 1 -->
+            <div class="question">
+                <p>1. ما هي الكلمة الأساسية لإنشاء كائن من فئة (Class) في Java؟</p>
+                <br>
+                <ul class="options">
+                    <li><input type="radio" name="q1" value="a"> a) new</li>
+                    <li><input type="radio" name="q1" value="b"> b) create</li>
+                    <li><input type="radio" name="q1" value="c"> c) class</li>
+                    <li><input type="radio" name="q1" value="d"> d) object</li>
+                </ul>
+            </div><br>
+
+            <!-- السؤال 2 -->
+            <div class="question">
+                <p>2. ما هي الكلمة الأساسية لتعريف دالة ثابتة (Static) في Java؟</p><br>
+                <ul class="options">
+                    <li><input type="radio" name="q2" value="a"> a) static</li>
+                    <li><input type="radio" name="q2" value="b"> b) final</li>
+                    <li><input type="radio" name="q2" value="c"> c) abstract</li>
+                    <li><input type="radio" name="q2" value="d"> d) virtual</li>
+                </ul>
+            </div><br>
+
+            <!-- السؤال 3 -->
+            <div class="question">
+                <p>3. ما هي الكلمة الأساسية للتعامل مع الاستثناءات (Exceptions) في Java؟</p><br>
+                <ul class="options">
+                    <li><input type="radio" name="q3" value="a"> a) try</li>
+                    <li><input type="radio" name="q3" value="b"> b) throw</li>
+                    <li><input type="radio" name="q3" value="c"> c) catch</li>
+                    <li><input type="radio" name="q3" value="d"> d) all of the above</li>
+                </ul>
+            </div><br>
+
+            <!-- السؤال 4 -->
+            <div class="question">
+                <p>4. ما هي الكلمة الأساسية لإنهاء دالة في Java؟</p><br>
+                <ul class="options">
+                    <li><input type="radio" name="q4" value="a"> a) return</li>
+                    <li><input type="radio" name="q4" value="b"> b) break</li>
+                    <li><input type="radio" name="q4" value="c"> c) exit</li>
+                    <li><input type="radio" name="q4" value="d"> d) stop</li>
+                </ul>
+            </div><br>
+
+            <!-- السؤال 5 -->
+            <div class="question">
+                <p>5. ما هو المبدأ الذي يعتمد عليه مفهوم الوراثة (Inheritance) في Java؟</p><br>
+                <ul class="options">
+                    <li><input type="radio" name="q5" value="a"> a) extends</li>
+                    <li><input type="radio" name="q5" value="b"> b) super</li>
+                    <li><input type="radio" name="q5" value="c"> c) this</li>
+                    <li><input type="radio" name="q5" value="d"> d) class</li>
+                </ul>
+            </div>
+
+            <button type="button" class="submit-btn" onclick="checkAnswers()">إرسال الإجابات</button>
+        </form>
+    </div>
+    <!-- نهاية قسم الاختبارات -->
+
+    <script src="index.js">
+        
+    </script>
+
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <img src="img/1.jpg" alt="this is a desert" class="prog">
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+</body>
+</html>
